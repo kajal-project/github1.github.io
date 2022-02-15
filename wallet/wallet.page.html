@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-row>
+      <ion-col-4>
+    <ion-icon name="chevron-back-outline" size="large"[routerLink]="['/tabs']" routerLinkActive="router-link-active" ></ion-icon>
+  </ion-col-4>
+  <ion-col-8>
+    <ion-title style="text-align: center;margin-left: 13vh;margin-top: 9px;">Wallet</ion-title>
+  </ion-col-8>
+  </ion-row>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h5>Balance</h5>
+  <ion-grid style="text-align: center;">
+    <ion-row>
+      <ion-col>
+      <div
+        style="display: block;width: 130px;;padding: 1px 5px;line-height: 3.1;color: #495057;background: #ffffff;border: 1px solid #c8c8c8;box-sizing: border-box;border-radius: 4px;color: red;">
+        0 </div>
+    </ion-col>
+    <div class="vl"></div>
+    <ion-col offset-4>
+      <div
+        style="display: block;width: 130px;;padding: 1px 5px;line-height: 3.1;color: #495057;background: #ffffff;border: 1px solid #c8c8c8;box-sizing: border-box;border-radius: 4px;color: red;">
+        0 </div>
+    </ion-col>
+  </ion-row>
+  </ion-grid>
+  <ion-row>
+    <ion-col>
+      <div style="font-size:2vh;color: gray;font-family: Verdana,sans-serif;text-align: center;margin-top:2px;">Delivary
+        Cash</div>
+    </ion-col>
+    <ion-col offset-4>
+      <div style="font-size:2vh;color: gray;font-family: Verdana,sans-serif;text-align: center;margin-top:2px;">Delivary
+        Cash+</div>
+    </ion-col>
+  </ion-row>
+  <p><u>How Food
+      Delivary Cash and Cash + work?</u>
+  <p>
+    <ion-button shape="square" size="full" color="danger"
+      style="padding-right: 5vh;padding-left: 5vh; margin-bottom: 5vh;margin-top: 20vh;text-transform: capitalize;">
+      Upload Money</ion-button>
+  <small style="color: #6c6a61;text-align: center;font-size: 13px;">Transaction
+    History</small>
+</ion-content>

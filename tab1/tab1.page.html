@@ -1,0 +1,61 @@
+<ion-header [translucent]="true">
+
+   <img src="../../assets/web_licious_logo-removebg-preview.png" id="logo" alt="">
+    <ion-title class="header">
+      <img src="../../assets/location-dropdown-removebg-preview.png" id="location" alt="">
+      <ion-icon id="notification" name="notifications-outline"></ion-icon>
+      <img src="../../assets/Cart_v2-removebg-preview.png" id="cart" alt="">
+  </ion-title>
+  <ion-toolbar>
+    <ion-searchbar showCancelButton="focus"  placeholder="search for any product"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+  
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <p>
+          <img src="../../assets/Festive_Deals-removebg-preview-removebg-preview.png" style="width: 50px;" alt="">
+        </p>
+      </ion-col>
+      <ion-col>
+        <p>
+          <img src="../../assets/Festive_Deals-removebg-preview-removebg-preview.png" style="width: 50px;" alt="">
+        </p>
+      </ion-col>
+      <ion-col>
+        <p>
+          <img src="../../assets/Festive_Deals-removebg-preview-removebg-preview.png" style="width: 50px;" alt="">
+        </p>
+      </ion-col>
+      <ion-col>
+        <p>
+          <img src="../../assets/Festive_Deals-removebg-preview-removebg-preview.png" style="width: 50px;" alt="">
+        </p>
+      </ion-col>
+      <ion-col>
+        <p>
+          <img src="../../assets/Festive_Deals-removebg-preview-removebg-preview.png" style="width: 50px;" alt="">
+        </p>
+      </ion-col>
+      <ion-col>
+        <p>
+          <img src="../../assets/Festive_Deals-removebg-preview-removebg-preview.png" style="width: 50px;" alt="">
+        </p>
+      </ion-col>
+      
+    </ion-row>
+    </ion-grid>
+
+
+<ion-slides  autoplay="5000" loop="true" speed="3000" pager="true" slide-interval="30000">
+  <ion-slide  *ngFor="let image of ImageArray" class="img">
+    <img class="img" src="{{image.image}}" alt="">
+  </ion-slide>
+</ion-slides>
+
+
+</ion-content>
+

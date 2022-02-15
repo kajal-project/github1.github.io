@@ -1,0 +1,38 @@
+
+#logo{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+    margin-left: 39%;
+
+}
+.header{
+    margin-top: -2vh;
+    border-top: 1px solid rgb(214, 214, 214);
+    padding-top: 10px;
+}
+#cart{
+    width: 23px;
+    margin-left: 10px;
+    font-size: 28px;
+}
+#notification{
+    margin-left: 185px;
+    font-size: 28px;
+}
+#location{
+   width: 23px;
+}
+ ion-searchbar{
+        ::ng-deep{
+            .searchbar-input{ 
+                border-radius: 10px;
+                font-size: 15px;
+                height: 35px;
+                background-color: rgb(247, 247, 247);
+               
+            }                   
+        }   
+    }
+
